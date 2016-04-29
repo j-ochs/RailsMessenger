@@ -1,0 +1,23 @@
+<body style="background-color:beige">
+<div class="header">
+<h1 style="color:red">Welcome to the Epic Messenging App of Connor's Wrath!</h1><br>
+</div>
+
+<div class="messages">
+<font size="4" face="bold">
+<%= link_to 'New Message', "messages/new" %>
+<% @messages.each do |message| %>
+
+<!--<%= link_to 'New Message', "messages/new" %>-->
+
+    <div class="message">
+      <p class="content"><%= message.content %>
+      </p>
+      <p class="time"><%= message.created_at %>
+      </p><br><br>
+    </div>
+    <% end %><br><br>
+  <p>---End of page---</p><br><br>
+</div>
+</font>
+</body>
