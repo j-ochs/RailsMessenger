@@ -1,28 +1,20 @@
-== README
+== RailsMessenger README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[v.04.28.16]
+[Jacob Ochs, Westmont College]
 
-Things you may want to cover:
+== Ruby version: 2.2.1
+== Rails version: 4.1.10
 
-* Ruby version
+The RailsMessenger app is my first application in the Ruby on Rails environment. Below are some things future goals which I will add to the project in time.
 
-* System dependencies
+* Add users with encrypted passwords. Only users will be able to create or comment on messages.
 
-* Configuration
+* Add the ability to comment on a message thread.
 
-* Database creation
+* Add message categories, and the ability to choose a category upon message creation.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
+* Convert all <tt>.html.erb</tt> files to <tt>.haml</tt>.
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
